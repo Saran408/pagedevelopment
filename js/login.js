@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    alert('welcome');
+    
     // listen for form submission
     $('#login-form').submit(function(event) {
       event.preventDefault(); // prevent default form submission

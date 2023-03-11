@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
 	// get the current user's username from local storage
 	var username = localStorage.getItem('username');
 
