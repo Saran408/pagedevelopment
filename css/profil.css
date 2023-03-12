@@ -19,8 +19,8 @@ body{
     min-height: 100vh;
 }
 .row{
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 665px;
     border-radius: 10px;
     background: rgba(82, 77, 77, 0.623);
     box-shadow: 15px 15px 15px 15px rgb(0, 0, 0);
@@ -34,6 +34,10 @@ body{
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px 0 0 10px;
+}
+
+form{
+    margin-top: -6%;
 }
 
 .ima{
@@ -72,13 +76,13 @@ i{
 .input-box{
     width: 330px;
     font-size: large;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 5%;
+    margin-left: 18%;
     box-sizing: border-box;
 }
 .input-box header{
     font-weight: 900;
-    font-size: large;
+    font-size: 20px;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -109,7 +113,7 @@ i{
     color: #ffffff;
 }
 
-#password{
+#age{
     background-color: #000;
     color: #ffffff;
     border-color: rgb(88, 235, 222);
@@ -118,6 +122,27 @@ i{
     font-size: 17px;
     box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
+
+#dob{
+    background-color: #000;
+    color: #ffffff;
+    border-color: rgb(88, 235, 222);
+    border-radius: 10px;
+    box-sizing: initial;
+    font-size: 17px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+
+#contact-address{
+    background-color: #000;
+    color: #ffffff;
+    border-color: rgb(88, 235, 222);
+    border-radius: 10px;
+    box-sizing: initial;
+    font-size: 17px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+
 #buton{
     font-weight: 900;
     font-size: larger;
@@ -199,6 +224,7 @@ span a:hover{
     .side-image{
         border-radius: 10px 10px 0 0;
     }
+
     img{
         width: 35px;
         position: absolute;
@@ -218,17 +244,29 @@ span a:hover{
         width: 100%;
     }
     .input-box{
-        margin-top: 25%;
+        margin-top: 20%;
         margin-left: -0%;
         max-width: 420px;
         width: 100%;
     }
     #username{
         box-sizing: border-box;
+        width: 90%;
         font-size: 15px;
     }
     #password{
         box-sizing: border-box;
+        width: 90%;
+        font-size: 10px;
+    }
+    #confirm-password{
+        box-sizing: border-box;
+        width: 90%;
+        font-size: 10px;
+    }
+    #email{
+        box-sizing: border-box;
+        width: 90%;
         font-size: 10px;
     }
 }
