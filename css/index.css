@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    
+    background-image: url('../images/img.jpg');
+    padding: 0 20px 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row{
+    width: 1500px;
+    height: 800px;
+    border-radius: 10px;
+    background: rgba(200,200,200,0.18);
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.row .head{
+    height: 50px;
+    width: 100%;
+    margin-top: 6%;  
+    font-size: 50px;
+    font-style: oblique;
+    padding-left: 70px;
+    padding-top: 10px; 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 20px 0 20px;
+    margin-top: -10%;
+}
+.content h1{
+    height: 100%;
+    width: 100%;  
+    font-size: 40px;
+    font-style: oblique;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.content p{
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;  
+    font-size: 35px;
+    font-style: oblique;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+.signin{
+    text-align: center;
+    font-size: small;
+    margin-top: 25px;
+
+}
+.signin .signin{
+    border: none;
+    outline: none;
+    height: 45px;
+    background: #2905a1;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+}
+.signin:hover{
+    background: rgba(37, 95, 156,0.9);
+    color: #fff;
+}
