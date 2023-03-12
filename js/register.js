@@ -1,5 +1,4 @@
  $(document).ready(function() {
-    
     // handle form submission
     $('#signup-form').submit(function(e) {
       e.preventDefault(); // prevent default form submission
