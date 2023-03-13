@@ -158,6 +158,21 @@ i{
     align-items: center;
 }
 
+#button{
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 13%;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
 .input{
     height: 45px;
     width: 100%;
@@ -202,21 +217,24 @@ i{
 }
 .signin{
     text-align: center;
-    font-size: small;
+    font-size: large;
     margin-top: 25px;
+    margin-left: 10px;
 }
 
 span{
     color: #ffffff;
+    margin-top: -10%;
     font-size: larger;
 }
-span a{
+.signin a{
     text-decoration: none;
     font-weight: 700;
+    margin-left: -3%;
     color: #fffdfd;
     transition: .5s;
 }
-span a:hover{
+.signin a:hover{
     text-decoration: underline;
     color: #fffefe;
 }
