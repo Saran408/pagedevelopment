@@ -244,7 +244,7 @@ span a:hover{
         width: 100%;
     }
     .input-box{
-        margin-top: 20%;
+        margin-top: -10%;
         margin-left: -0%;
         max-width: 420px;
         width: 100%;
@@ -254,17 +254,17 @@ span a:hover{
         width: 90%;
         font-size: 15px;
     }
-    #password{
+    #age{
         box-sizing: border-box;
         width: 90%;
         font-size: 10px;
     }
-    #confirm-password{
+    #dob{
         box-sizing: border-box;
         width: 90%;
         font-size: 10px;
     }
-    #email{
+    #contact-address{
         box-sizing: border-box;
         width: 90%;
         font-size: 10px;

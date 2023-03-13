@@ -20,7 +20,7 @@ body{
 }
 .row{
     width: 550px;
-    height: 630px;
+    height: 670px;
     border-radius: 10px;
     background: rgba(82, 77, 77, 0.623);
     box-shadow: 15px 15px 15px 15px rgb(0, 0, 0);
@@ -113,7 +113,7 @@ i{
     color: #ffffff;
 }
 
-#password{
+#age{
     background-color: #000;
     color: #ffffff;
     border-color: rgb(88, 235, 222);
@@ -123,7 +123,7 @@ i{
     box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
 
-#confirm-password{
+#dob{
     background-color: #000;
     color: #ffffff;
     border-color: rgb(88, 235, 222);
@@ -133,7 +133,7 @@ i{
     box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
 
-#email{
+#contact-address{
     background-color: #000;
     color: #ffffff;
     border-color: rgb(88, 235, 222);
@@ -220,7 +220,10 @@ span a:hover{
     text-decoration: underline;
     color: #fffefe;
 }
-@media only screen and (max-width: 1000px){
+
+
+
+@media only screen and (max-width: 1200px){
     .side-image{
         border-radius: 10px 10px 0 0;
     }
@@ -244,7 +247,7 @@ span a:hover{
         width: 100%;
     }
     .input-box{
-        margin-top: 20%;
+        margin-top: 12%;
         margin-left: -0%;
         max-width: 420px;
         width: 100%;
@@ -254,19 +257,19 @@ span a:hover{
         width: 90%;
         font-size: 15px;
     }
-    #password{
+    #age{
         box-sizing: border-box;
         width: 90%;
-        font-size: 10px;
+        font-size: 15px;
     }
-    #confirm-password{
+    #dob{
         box-sizing: border-box;
         width: 90%;
-        font-size: 10px;
+        font-size: 15px;
     }
-    #email{
+    #contact-address{
         box-sizing: border-box;
         width: 90%;
-        font-size: 10px;
+        font-size: 15px;
     }
 }

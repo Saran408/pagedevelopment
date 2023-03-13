@@ -16,10 +16,10 @@
 }
 .row{
     width: 1500px;
-    height: 800px;
+    height: 50px;
     border-radius: 10px;
-    background: rgba(200,200,200,0.18);
-    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+    background: rgba(177, 165, 165, 0.404);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
 }
 .row .head{
     height: 50px;
