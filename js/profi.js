@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	alert('we');
 	// get the current user's username from local storage
 	var session_key = localStorage.getItem('session_key');
 	//alert(session_key);
@@ -35,7 +34,7 @@ $(document).ready(function() {
 	// handle form submission
 	$('#profile-form').submit(function(event) {
 		event.preventDefault();
-		alert("hi");
+		
 		var session_key = localStorage.getItem('session_key');
 		// get the form data
 		var age = $('#age').val();
@@ -56,7 +55,7 @@ $(document).ready(function() {
 			},
 			success: function(data) {
 
-				alert(data.message);
+				// alert(data.message);
 				alert('Profile updated successfully.');
 			},
 			error: function() {
