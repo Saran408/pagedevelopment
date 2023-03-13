@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+	alert('we');
 	// get the current user's username from local storage
 	var session_key = localStorage.getItem('session_key');
 	//alert(session_key);
